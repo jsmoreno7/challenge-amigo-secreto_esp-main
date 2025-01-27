@@ -9,19 +9,21 @@ function agregarAmigo(){
             alert("Por favor, ingresa un nombre"); 
         } else { 
            amigos.push(nombreAmigo);
-           // console.log(amigos);
+            //console.log(amigos);
+         return;
         }
         limpiarCaja();
  }
 
  function limpiarCaja(){
     document.querySelector("#amigo").value = '';
- }
-
-
-function leerListaAmigos(){
+    
+}
+function actualizarListaAmigos(){
+    let listaHTML = document.querySelector("#listaAmigos");
+    listaHTML.innerHTML = "";
     for(let i = 0; i <= amigos.length; i++){
-        console.log(amigos[i]);
+        console.log(amigos);
     }
 }
-leerListaAmigos();
+
