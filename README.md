@@ -55,7 +55,7 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **José Luis Martínez Moreno** - *Trabajo Completo* - [villanuevand](https://github.com/jsmoreno7)
+* **José Luis Martínez Moreno** - *Trabajo Completo* - [jsmoreno7](https://github.com/jsmoreno7)
 
 ## Licencia 📄
 
