@@ -16,7 +16,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+El proyecto solamente requiere un navegador web.
 ```
 
 ### Instalación 🔧
