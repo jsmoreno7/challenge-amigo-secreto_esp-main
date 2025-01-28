@@ -29,8 +29,6 @@ _Dí cómo será ese paso_
 Solamente ingresa al sitio https://github.com/jsmoreno7/challenge-amigo-secreto_esp-main.git y se descarga el proyecto comprimido, se extrae el proyecto de manera local en tu computador.
 ```
 
-_Y repite_
-
 ```
 Abres el archivo index.html con el navegador de tu preferencia.
 ```
