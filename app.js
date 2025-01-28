@@ -12,13 +12,15 @@ function agregarAmigo(){
         }   
         limpiarCaja();
         actualizarListaAmigos();
-        amigoSorteado();
     return;
  }
 
  function limpiarCaja(){
     document.querySelector("#amigo").value = '';
     
+}
+function ocultarLista(){
+    document.querySelector('#listaAmigos').setAttribute('hidden', 'true'); // ocultar lista de Amigos en el evento OnClick
 }
 function actualizarListaAmigos(){
     let listaHTML = document.querySelector("#listaAmigos");
@@ -31,14 +33,15 @@ function actualizarListaAmigos(){
     return;
 }
 
-function amigoSorteado(){
+function sortearAmigo(){
     let indexAleatorio = Math.floor(Math.random()*amigos.length);
-    console.log(amigos);
     if(amigos.length === 0){
         alert("La lista está vacia");
     }else{
-        console.log(amigos[indexAleatorio]);
-        }
+        let resultadoSorteoHTML = document.getElementById('resultado');
+        resultadoSorteoHTML.innerHTML = amigos[indexAleatorio];
+         }
+        ocultarLista();
     return;
 }
 
